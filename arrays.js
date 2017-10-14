@@ -4,6 +4,11 @@ function accessElementInArray(chocolateBars,n) {
   return chocolateBars[n];
 }
 
+function destructivelyAddElementToBeginningOfArray(chocolateBars, foo) {
+  chocolateBars.unshift(foo)
+  return chocolateBars
+}
+
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
   chocolateBars.shift()
   return chocolateBars
