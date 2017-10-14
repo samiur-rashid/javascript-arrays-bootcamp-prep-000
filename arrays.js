@@ -37,3 +37,7 @@ function removeElementFromEndOfArray(chocolateBars) {
 function addElementToBeginningOfArray(chocolateBars, foo) {
   return [foo, ...chocolateBars]
 }
+
+function addElementToEndOfArray[chocolateBars, foo] {
+  return [...chocolateBars, foo]
+}
