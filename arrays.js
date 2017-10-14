@@ -33,3 +33,7 @@ function removeElementFromEndOfArray(chocolateBars) {
   chocolateBars.slice(0, chocolateBars.length - 1)
   return chocolateBars
 }
+
+function addElementToBeginningOfArray(chocolateBars, foo) {
+  return [foo, ...chocolateBars]
+}
