@@ -38,6 +38,6 @@ function addElementToBeginningOfArray(chocolateBars, foo) {
   return [foo, ...chocolateBars]
 }
 
-function addElementToEndOfArray[chocolateBars, foo] {
+function addElementToEndOfArray(chocolateBars, foo) {
   return [...chocolateBars, foo]
 }
